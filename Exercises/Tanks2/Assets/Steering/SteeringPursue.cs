@@ -30,6 +30,9 @@ public class SteeringPursue : MonoBehaviour {
         // max_seconds_prediction time
         // Be sure that arrive / seek's update is not called at the same time
 
+        Vector3 fakePos = target + velocity * max_seconds_prediction;
+        move.AccelerateMovement((fakePos - transform.position).normalized * move.max_mov_acceleration);
+
         // TODO 6: Improve the prediction based on the distance from
         // our target and the speed we have
 
