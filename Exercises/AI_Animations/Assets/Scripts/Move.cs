@@ -8,6 +8,8 @@ public class Move : MonoBehaviour {
 
 	public GameObject target;
     NavMeshAgent navMeshAgent;
+    public Animator anim;
+    public float remainingDistance = 0.1f;
 
 
    
@@ -24,6 +26,14 @@ void Start()
         if (navMeshAgent && target) {
             navMeshAgent.destination = target.transform.position;
 
+            if (navMeshAgent.remainingDistance > remainingDistance)
+            {
+                anim.SetBool("movement", true);
+            }
+            else
+            {
+                anim.SetBool("movement", false);
+            }
         }
     }
 }
