@@ -125,7 +125,7 @@ GameObject:
   - component: {fileID: 38034633}
   - component: {fileID: 38034635}
   - component: {fileID: 38034634}
-  m_Layer: 9
+  m_Layer: 11
   m_Name: Dunes02 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -190,104 +190,16 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 38034632}
   m_Mesh: {fileID: 4300000, guid: 38b4fea28f58d3641980a70a5188e750, type: 3}
---- !u!1 &44973437
+--- !u!1 &44973437 stripped
 GameObject:
-  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 100000, guid: e307cb54b57a59342868ad47d1ed0c30,
     type: 3}
   m_PrefabInternal: {fileID: 1806505481}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 44973441}
-  - component: {fileID: 44973440}
-  - component: {fileID: 44973439}
-  - component: {fileID: 44973438}
-  - component: {fileID: 44973442}
-  m_Layer: 9
-  m_Name: OilStorage
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 8
-  m_IsActive: 1
---- !u!95 &44973438
-Animator:
-  serializedVersion: 3
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 9500000, guid: e307cb54b57a59342868ad47d1ed0c30,
-    type: 3}
-  m_PrefabInternal: {fileID: 1806505481}
-  m_GameObject: {fileID: 44973437}
-  m_Enabled: 1
-  m_Avatar: {fileID: 9000000, guid: e307cb54b57a59342868ad47d1ed0c30, type: 3}
-  m_Controller: {fileID: 0}
-  m_CullingMode: 0
-  m_UpdateMode: 0
-  m_ApplyRootMotion: 0
-  m_LinearVelocityBlending: 0
-  m_WarningMessage: 
-  m_HasTransformHierarchy: 1
-  m_AllowConstantClipSamplingOptimization: 1
-  m_KeepAnimatorControllerStateOnDisable: 0
---- !u!23 &44973439
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 2300000, guid: e307cb54b57a59342868ad47d1ed0c30,
-    type: 3}
-  m_PrefabInternal: {fileID: 1806505481}
-  m_GameObject: {fileID: 44973437}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
-  m_Materials:
-  - {fileID: 2100000, guid: b3a1f2f69b4c3a84cba5446e31e87c20, type: 2}
-  - {fileID: 2100000, guid: e7df269b1d6121e4787b2f27aab18dbe, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
---- !u!33 &44973440
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 3300000, guid: e307cb54b57a59342868ad47d1ed0c30,
-    type: 3}
-  m_PrefabInternal: {fileID: 1806505481}
-  m_GameObject: {fileID: 44973437}
-  m_Mesh: {fileID: 4300000, guid: e307cb54b57a59342868ad47d1ed0c30, type: 3}
---- !u!4 &44973441
+--- !u!4 &44973441 stripped
 Transform:
-  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 400000, guid: e307cb54b57a59342868ad47d1ed0c30,
     type: 3}
   m_PrefabInternal: {fileID: 1806505481}
-  m_GameObject: {fileID: 44973437}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -1.9, y: 0.0026257324, z: 10.55}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1816550083}
-  m_RootOrder: 9
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!136 &44973442
 CapsuleCollider:
   m_ObjectHideFlags: 0
@@ -310,7 +222,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 60304098}
-  m_Layer: 9
+  m_Layer: 11
   m_Name: Ground
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -352,7 +264,7 @@ GameObject:
   - component: {fileID: 75402139}
   - component: {fileID: 75402141}
   - component: {fileID: 75402140}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: TankTracksRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -426,7 +338,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 83010907}
-  m_Layer: 9
+  m_Layer: 11
   m_Name: Jump B
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -491,11 +403,10 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: 6e4d8dfe03882c54380948659f725233, type: 3}
       propertyPath: m_Layer
-      value: 9
+      value: 12
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: 6e4d8dfe03882c54380948659f725233, type: 3}
-  m_RootGameObject: {fileID: 461280021}
   m_IsPrefabAsset: 0
 --- !u!1 &106787879
 GameObject:
@@ -508,7 +419,7 @@ GameObject:
   - component: {fileID: 106787880}
   - component: {fileID: 106787882}
   - component: {fileID: 106787881}
-  m_Layer: 9
+  m_Layer: 11
   m_Name: Dunes02 (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -584,7 +495,7 @@ GameObject:
   - component: {fileID: 108066281}
   - component: {fileID: 108066283}
   - component: {fileID: 108066282}
-  m_Layer: 9
+  m_Layer: 11
   m_Name: Concrete (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -658,7 +569,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 127868822}
-  m_Layer: 9
+  m_Layer: 11
   m_Name: Dunes
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -702,25 +613,11 @@ Transform:
   m_Father: {fileID: 1816550083}
   m_RootOrder: 2
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &171258677
+--- !u!1 &171258677 stripped
 GameObject:
-  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 100002, guid: f698f69d64c51f8438d853e5c274e5fc,
     type: 3}
   m_PrefabInternal: {fileID: 587557509}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 171258681}
-  - component: {fileID: 171258680}
-  - component: {fileID: 171258679}
-  - component: {fileID: 171258678}
-  m_Layer: 9
-  m_Name: Building01
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 1
-  m_StaticEditorFlags: 8
-  m_IsActive: 1
 --- !u!65 &171258678
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -733,68 +630,11 @@ BoxCollider:
   serializedVersion: 2
   m_Size: {x: 5.271926, y: 4.171883, z: 4.6030703}
   m_Center: {x: 0.06934309, y: 2.0075629, z: 0.2770661}
---- !u!23 &171258679
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 2300002, guid: f698f69d64c51f8438d853e5c274e5fc,
-    type: 3}
-  m_PrefabInternal: {fileID: 587557509}
-  m_GameObject: {fileID: 171258677}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
-  m_Materials:
-  - {fileID: 2100000, guid: d0c31a39c426da94496d2abbf928d525, type: 2}
-  - {fileID: 2100000, guid: 87d2e70ca18454e4f855f8d99afb32e3, type: 2}
-  - {fileID: 2100000, guid: e7df269b1d6121e4787b2f27aab18dbe, type: 2}
-  - {fileID: 2100000, guid: 7e41e83d6bd224b4d99fa3ffa5e3a3a4, type: 2}
-  - {fileID: 2100000, guid: 03ad6a4c3c0e64440b1d6cee74fc2a4f, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
---- !u!33 &171258680
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 3300002, guid: f698f69d64c51f8438d853e5c274e5fc,
-    type: 3}
-  m_PrefabInternal: {fileID: 587557509}
-  m_GameObject: {fileID: 171258677}
-  m_Mesh: {fileID: 4300000, guid: f698f69d64c51f8438d853e5c274e5fc, type: 3}
---- !u!4 &171258681
+--- !u!4 &171258681 stripped
 Transform:
-  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 400002, guid: f698f69d64c51f8438d853e5c274e5fc,
     type: 3}
   m_PrefabInternal: {fileID: 587557509}
-  m_GameObject: {fileID: 171258677}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -11.850874, y: 0.07837871, z: 7.532221}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1816550083}
-  m_RootOrder: 4
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
 --- !u!1 &209732117
 GameObject:
   m_ObjectHideFlags: 0
@@ -806,7 +646,7 @@ GameObject:
   - component: {fileID: 209732118}
   - component: {fileID: 209732120}
   - component: {fileID: 209732119}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: TankChassis
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -885,7 +725,7 @@ GameObject:
   - component: {fileID: 213304462}
   - component: {fileID: 213304461}
   - component: {fileID: 213304460}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1056,7 +896,7 @@ GameObject:
   - component: {fileID: 252131590}
   - component: {fileID: 252131592}
   - component: {fileID: 252131591}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: TankChassis
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1192,7 +1032,7 @@ GameObject:
   - component: {fileID: 337500649}
   - component: {fileID: 337500651}
   - component: {fileID: 337500650}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Fill
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1265,7 +1105,7 @@ GameObject:
   - component: {fileID: 362451115}
   - component: {fileID: 362451114}
   - component: {fileID: 362451113}
-  m_Layer: 9
+  m_Layer: 12
   m_Name: Ramp (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1351,12 +1191,13 @@ GameObject:
   m_Component:
   - component: {fileID: 384830316}
   - component: {fileID: 384830323}
+  - component: {fileID: 384830320}
   - component: {fileID: 384830322}
   - component: {fileID: 384830321}
   - component: {fileID: 384830319}
   - component: {fileID: 384830318}
   - component: {fileID: 384830317}
-  m_Layer: 8
+  m_Layer: 9
   m_Name: Patrol 2
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1536,6 +1377,25 @@ Camera:
   m_OcclusionCulling: 1
   m_StereoConvergence: 10
   m_StereoSeparation: 0.022
+--- !u!114 &384830320
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 384830315}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c92b7970bdf43ec458d07e12caa0fdcb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  radius: 5
+  mask:
+    serializedVersion: 2
+    m_Bits: 0
+  rayMask:
+    serializedVersion: 2
+    m_Bits: 0
+  camera: {fileID: 0}
 --- !u!54 &384830321
 Rigidbody:
   m_ObjectHideFlags: 0
@@ -1595,7 +1455,7 @@ GameObject:
   - component: {fileID: 436329477}
   - component: {fileID: 436329479}
   - component: {fileID: 436329478}
-  m_Layer: 9
+  m_Layer: 11
   m_Name: Dunes01 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1660,86 +1520,16 @@ MeshFilter:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 436329476}
   m_Mesh: {fileID: 4300000, guid: 1b0f8caf6ec3ed644bf9751040d84dcb, type: 3}
---- !u!1 &461280021
+--- !u!1 &461280021 stripped
 GameObject:
-  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 100000, guid: 6e4d8dfe03882c54380948659f725233,
     type: 3}
   m_PrefabInternal: {fileID: 97940994}
-  serializedVersion: 6
-  m_Component:
-  - component: {fileID: 461280022}
-  - component: {fileID: 461280024}
-  - component: {fileID: 461280023}
-  - component: {fileID: 461280025}
-  m_Layer: 9
-  m_Name: Refinery
-  m_TagString: Untagged
-  m_Icon: {fileID: 0}
-  m_NavMeshLayer: 0
-  m_StaticEditorFlags: 8
-  m_IsActive: 1
---- !u!4 &461280022
+--- !u!4 &461280022 stripped
 Transform:
-  m_ObjectHideFlags: 0
   m_CorrespondingSourceObject: {fileID: 400000, guid: 6e4d8dfe03882c54380948659f725233,
     type: 3}
   m_PrefabInternal: {fileID: 97940994}
-  m_GameObject: {fileID: 461280021}
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: 18.4, y: 0.075319216, z: 7.028911}
-  m_LocalScale: {x: 1, y: 1, z: 1}
-  m_Children: []
-  m_Father: {fileID: 1816550083}
-  m_RootOrder: 3
-  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!23 &461280023
-MeshRenderer:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 2300000, guid: 6e4d8dfe03882c54380948659f725233,
-    type: 3}
-  m_PrefabInternal: {fileID: 97940994}
-  m_GameObject: {fileID: 461280021}
-  m_Enabled: 1
-  m_CastShadows: 1
-  m_ReceiveShadows: 1
-  m_DynamicOccludee: 1
-  m_MotionVectors: 1
-  m_LightProbeUsage: 1
-  m_ReflectionProbeUsage: 1
-  m_RenderingLayerMask: 4294967295
-  m_Materials:
-  - {fileID: 2100000, guid: 87d2e70ca18454e4f855f8d99afb32e3, type: 2}
-  - {fileID: 2100000, guid: d0c31a39c426da94496d2abbf928d525, type: 2}
-  - {fileID: 2100000, guid: 7e41e83d6bd224b4d99fa3ffa5e3a3a4, type: 2}
-  - {fileID: 2100000, guid: e7df269b1d6121e4787b2f27aab18dbe, type: 2}
-  m_StaticBatchInfo:
-    firstSubMesh: 0
-    subMeshCount: 0
-  m_StaticBatchRoot: {fileID: 0}
-  m_ProbeAnchor: {fileID: 0}
-  m_LightProbeVolumeOverride: {fileID: 0}
-  m_ScaleInLightmap: 1
-  m_PreserveUVs: 0
-  m_IgnoreNormalsForChartDetection: 0
-  m_ImportantGI: 0
-  m_StitchLightmapSeams: 0
-  m_SelectedEditorRenderState: 3
-  m_MinimumChartSize: 4
-  m_AutoUVMaxDistance: 0.5
-  m_AutoUVMaxAngle: 89
-  m_LightmapParameters: {fileID: 0}
-  m_SortingLayerID: 0
-  m_SortingLayer: 0
-  m_SortingOrder: 0
---- !u!33 &461280024
-MeshFilter:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 3300000, guid: 6e4d8dfe03882c54380948659f725233,
-    type: 3}
-  m_PrefabInternal: {fileID: 97940994}
-  m_GameObject: {fileID: 461280021}
-  m_Mesh: {fileID: 4300000, guid: 6e4d8dfe03882c54380948659f725233, type: 3}
 --- !u!65 &461280025
 BoxCollider:
   m_ObjectHideFlags: 0
@@ -1866,7 +1656,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: f698f69d64c51f8438d853e5c274e5fc, type: 3}
       propertyPath: m_Layer
-      value: 9
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 100002, guid: f698f69d64c51f8438d853e5c274e5fc, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -1878,7 +1668,6 @@ Prefab:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: f698f69d64c51f8438d853e5c274e5fc, type: 3}
-  m_RootGameObject: {fileID: 171258677}
   m_IsPrefabAsset: 0
 --- !u!1 &619787481
 GameObject:
@@ -1891,7 +1680,7 @@ GameObject:
   - component: {fileID: 619787482}
   - component: {fileID: 619787484}
   - component: {fileID: 619787483}
-  m_Layer: 9
+  m_Layer: 11
   m_Name: Dunes01 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1966,7 +1755,7 @@ GameObject:
   m_Component:
   - component: {fileID: 626814868}
   - component: {fileID: 626814869}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: AimSlider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -1990,7 +1779,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.000000007450581, y: 6}
+  m_AnchoredPosition: {x: 0, y: 6}
   m_SizeDelta: {x: -2, y: 6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &626814869
@@ -2051,7 +1840,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 641869837}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Fill Area
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2089,7 +1878,7 @@ GameObject:
   - component: {fileID: 663359550}
   - component: {fileID: 663359552}
   - component: {fileID: 663359551}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: TankTracksLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2165,7 +1954,7 @@ GameObject:
   m_Component:
   - component: {fileID: 705626896}
   - component: {fileID: 705626895}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: AimSlider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2252,7 +2041,7 @@ GameObject:
   - component: {fileID: 715787868}
   - component: {fileID: 715787870}
   - component: {fileID: 715787869}
-  m_Layer: 9
+  m_Layer: 11
   m_Name: Dunes01 (9)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2328,7 +2117,7 @@ GameObject:
   - component: {fileID: 719640316}
   - component: {fileID: 719640318}
   - component: {fileID: 719640317}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Fill
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2401,7 +2190,7 @@ GameObject:
   - component: {fileID: 725913711}
   - component: {fileID: 725913713}
   - component: {fileID: 725913712}
-  m_Layer: 9
+  m_Layer: 11
   m_Name: Dunes01
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2477,7 +2266,7 @@ GameObject:
   - component: {fileID: 766412954}
   - component: {fileID: 766412956}
   - component: {fileID: 766412955}
-  m_Layer: 9
+  m_Layer: 11
   m_Name: Dunes01 (12)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2553,7 +2342,7 @@ GameObject:
   - component: {fileID: 883973001}
   - component: {fileID: 883973003}
   - component: {fileID: 883973002}
-  m_Layer: 9
+  m_Layer: 11
   m_Name: Concrete (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2629,7 +2418,7 @@ GameObject:
   - component: {fileID: 884868534}
   - component: {fileID: 884868536}
   - component: {fileID: 884868535}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: TankTracksRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2706,7 +2495,7 @@ GameObject:
   - component: {fileID: 897924600}
   - component: {fileID: 897924602}
   - component: {fileID: 897924601}
-  m_Layer: 9
+  m_Layer: 11
   m_Name: Dunes02 (6)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2784,7 +2573,7 @@ GameObject:
   - component: {fileID: 903694166}
   - component: {fileID: 903694165}
   - component: {fileID: 903694164}
-  m_Layer: 9
+  m_Layer: 11
   m_Name: Cow
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -2887,11 +2676,12 @@ GameObject:
   - component: {fileID: 925723625}
   - component: {fileID: 925723624}
   - component: {fileID: 925723623}
+  - component: {fileID: 925723626}
   - component: {fileID: 925723622}
   - component: {fileID: 925723628}
   - component: {fileID: 925723627}
   - component: {fileID: 925723621}
-  m_Layer: 8
+  m_Layer: 9
   m_Name: Patrol 1
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3057,7 +2847,7 @@ Transform:
   m_PrefabInternal: {fileID: 0}
   m_GameObject: {fileID: 925723620}
   m_LocalRotation: {x: 0, y: -0.68205976, z: 0, w: 0.7312965}
-  m_LocalPosition: {x: -6.501476, y: 0, z: -6.567503}
+  m_LocalPosition: {x: -6.481476, y: 0, z: -6.587503}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_Children:
   - {fileID: 1920752372}
@@ -3067,6 +2857,25 @@ Transform:
   m_Father: {fileID: 0}
   m_RootOrder: 4
   m_LocalEulerAnglesHint: {x: 0, y: -90, z: 0}
+--- !u!114 &925723626
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInternal: {fileID: 0}
+  m_GameObject: {fileID: 925723620}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: c92b7970bdf43ec458d07e12caa0fdcb, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  radius: 10
+  mask:
+    serializedVersion: 2
+    m_Bits: 512
+  rayMask:
+    serializedVersion: 2
+    m_Bits: 4608
+  camera: {fileID: 0}
 --- !u!114 &925723627
 MonoBehaviour:
   m_ObjectHideFlags: 0
@@ -3101,7 +2910,7 @@ Camera:
     height: 1
   near clip plane: 2.52
   far clip plane: 20
-  field of view: 38.7
+  field of view: 44.4
   orthographic: 0
   orthographic size: 5
   m_Depth: 0
@@ -3130,7 +2939,7 @@ GameObject:
   - component: {fileID: 960830320}
   - component: {fileID: 960830322}
   - component: {fileID: 960830321}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Fill
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3278,7 +3087,7 @@ GameObject:
   - component: {fileID: 997751658}
   - component: {fileID: 997751660}
   - component: {fileID: 997751659}
-  m_Layer: 9
+  m_Layer: 11
   m_Name: Concrete (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3355,7 +3164,7 @@ GameObject:
   - component: {fileID: 1014668652}
   - component: {fileID: 1014668651}
   - component: {fileID: 1014668650}
-  m_Layer: 9
+  m_Layer: 11
   m_Name: Cow (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3799,7 +3608,7 @@ GameObject:
   - component: {fileID: 1096989529}
   - component: {fileID: 1096989531}
   - component: {fileID: 1096989530}
-  m_Layer: 9
+  m_Layer: 11
   m_Name: Dunes01 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3875,7 +3684,7 @@ GameObject:
   - component: {fileID: 1117275310}
   - component: {fileID: 1117275312}
   - component: {fileID: 1117275311}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: TankTurret
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -3953,7 +3762,7 @@ GameObject:
   - component: {fileID: 1136719858}
   - component: {fileID: 1136719857}
   - component: {fileID: 1136719856}
-  m_Layer: 9
+  m_Layer: 11
   m_Name: GroundPlane
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4044,7 +3853,7 @@ GameObject:
   - component: {fileID: 1175013333}
   - component: {fileID: 1175013335}
   - component: {fileID: 1175013334}
-  m_Layer: 9
+  m_Layer: 11
   m_Name: Dunes01 (7)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4120,7 +3929,7 @@ GameObject:
   - component: {fileID: 1184189274}
   - component: {fileID: 1184189276}
   - component: {fileID: 1184189275}
-  m_Layer: 9
+  m_Layer: 11
   m_Name: Dunes01 (11)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4450,7 +4259,7 @@ GameObject:
   - component: {fileID: 1223757099}
   - component: {fileID: 1223757101}
   - component: {fileID: 1223757100}
-  m_Layer: 9
+  m_Layer: 11
   m_Name: Concrete (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4524,7 +4333,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1258218287}
   - component: {fileID: 1258218288}
-  m_Layer: 9
+  m_Layer: 0
   m_Name: Target
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4560,7 +4369,7 @@ MonoBehaviour:
   - {fileID: 1579789855}
   mask:
     serializedVersion: 2
-    m_Bits: 512
+    m_Bits: 2048
   mouse_button: 0
 --- !u!1 &1261209916
 GameObject:
@@ -4573,7 +4382,7 @@ GameObject:
   - component: {fileID: 1261209917}
   - component: {fileID: 1261209919}
   - component: {fileID: 1261209918}
-  m_Layer: 9
+  m_Layer: 11
   m_Name: Concrete (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4648,7 +4457,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1262632478}
   - component: {fileID: 1262632479}
-  m_Layer: 9
+  m_Layer: 11
   m_Name: Directional light
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4718,7 +4527,7 @@ GameObject:
   - component: {fileID: 1306440707}
   - component: {fileID: 1306440709}
   - component: {fileID: 1306440708}
-  m_Layer: 9
+  m_Layer: 11
   m_Name: Dunes02 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4792,7 +4601,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1378299704}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: TankRenderers
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4920,7 +4729,7 @@ GameObject:
   - component: {fileID: 1400101958}
   - component: {fileID: 1400101960}
   - component: {fileID: 1400101959}
-  m_Layer: 9
+  m_Layer: 11
   m_Name: Concrete (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -4996,7 +4805,7 @@ GameObject:
   - component: {fileID: 1427615373}
   - component: {fileID: 1427615375}
   - component: {fileID: 1427615374}
-  m_Layer: 9
+  m_Layer: 11
   m_Name: Dunes01 (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5072,7 +4881,7 @@ GameObject:
   - component: {fileID: 1432234608}
   - component: {fileID: 1432234610}
   - component: {fileID: 1432234609}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: TankTracksLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5149,7 +4958,7 @@ GameObject:
   - component: {fileID: 1576826867}
   - component: {fileID: 1576826869}
   - component: {fileID: 1576826868}
-  m_Layer: 9
+  m_Layer: 11
   m_Name: Dunes02 (5)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5226,7 +5035,7 @@ GameObject:
   - component: {fileID: 1579789870}
   - component: {fileID: 1579789856}
   - component: {fileID: 1579789857}
-  m_Layer: 8
+  m_Layer: 9
   m_Name: Player
   m_TagString: Visual Emitter
   m_Icon: {fileID: 0}
@@ -5309,7 +5118,7 @@ GameObject:
   - component: {fileID: 1584348597}
   - component: {fileID: 1584348596}
   - component: {fileID: 1584348595}
-  m_Layer: 9
+  m_Layer: 12
   m_Name: Ramp
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5396,7 +5205,7 @@ GameObject:
   - component: {fileID: 1594899768}
   - component: {fileID: 1594899770}
   - component: {fileID: 1594899769}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: TankTurret
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5473,7 +5282,7 @@ GameObject:
   - component: {fileID: 1621344714}
   - component: {fileID: 1621344716}
   - component: {fileID: 1621344715}
-  m_Layer: 9
+  m_Layer: 11
   m_Name: Dunes01 (4)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5549,7 +5358,7 @@ GameObject:
   - component: {fileID: 1681955694}
   - component: {fileID: 1681955696}
   - component: {fileID: 1681955695}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: TankTurret
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5624,7 +5433,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1690438179}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Fill Area
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5661,7 +5470,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1701959303}
   - component: {fileID: 1701959304}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: AimSlider
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5685,7 +5494,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: 0.000000007450581, y: 6}
+  m_AnchoredPosition: {x: 0, y: 6}
   m_SizeDelta: {x: -2, y: 6}
   m_Pivot: {x: 0.5, y: 0.5}
 --- !u!114 &1701959304
@@ -5748,7 +5557,7 @@ GameObject:
   - component: {fileID: 1717927644}
   - component: {fileID: 1717927646}
   - component: {fileID: 1717927645}
-  m_Layer: 9
+  m_Layer: 11
   m_Name: Concrete
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5822,7 +5631,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1718555125}
   - component: {fileID: 1718555126}
-  m_Layer: 9
+  m_Layer: 11
   m_Name: Jump A
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5869,7 +5678,7 @@ GameObject:
   - component: {fileID: 1731922018}
   - component: {fileID: 1731922020}
   - component: {fileID: 1731922019}
-  m_Layer: 9
+  m_Layer: 11
   m_Name: Concrete (1)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -5943,7 +5752,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1768705984}
   - component: {fileID: 1768705985}
-  m_Layer: 8
+  m_Layer: 9
   m_Name: Alert
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6050,7 +5859,7 @@ Prefab:
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: e307cb54b57a59342868ad47d1ed0c30, type: 3}
       propertyPath: m_Layer
-      value: 9
+      value: 12
       objectReference: {fileID: 0}
     - target: {fileID: 100000, guid: e307cb54b57a59342868ad47d1ed0c30, type: 3}
       propertyPath: m_StaticEditorFlags
@@ -6058,7 +5867,6 @@ Prefab:
       objectReference: {fileID: 0}
     m_RemovedComponents: []
   m_SourcePrefab: {fileID: 100100000, guid: e307cb54b57a59342868ad47d1ed0c30, type: 3}
-  m_RootGameObject: {fileID: 44973437}
   m_IsPrefabAsset: 0
 --- !u!1 &1810196856
 GameObject:
@@ -6105,7 +5913,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1816550083}
-  m_Layer: 9
+  m_Layer: 11
   m_Name: CompleteLevelArt
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6147,7 +5955,7 @@ GameObject:
   - component: {fileID: 1821904367}
   - component: {fileID: 1821904369}
   - component: {fileID: 1821904368}
-  m_Layer: 9
+  m_Layer: 11
   m_Name: Dunes01 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6310,7 +6118,7 @@ GameObject:
   - component: {fileID: 1843139438}
   - component: {fileID: 1843139440}
   - component: {fileID: 1843139439}
-  m_Layer: 9
+  m_Layer: 11
   m_Name: Dunes02
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6386,7 +6194,7 @@ GameObject:
   - component: {fileID: 1869809513}
   - component: {fileID: 1869809515}
   - component: {fileID: 1869809514}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: TankTracksLeft
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6461,7 +6269,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1870413948}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: TankRenderers
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6496,7 +6304,7 @@ GameObject:
   - component: {fileID: 1876294892}
   - component: {fileID: 1876294894}
   - component: {fileID: 1876294893}
-  m_Layer: 9
+  m_Layer: 11
   m_Name: Dunes02 (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6570,7 +6378,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 1920752372}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: TankRenderers
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6605,7 +6413,7 @@ GameObject:
   - component: {fileID: 1925305643}
   - component: {fileID: 1925305645}
   - component: {fileID: 1925305644}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: TankChassis
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6683,7 +6491,7 @@ GameObject:
   - component: {fileID: 1931061986}
   - component: {fileID: 1931061988}
   - component: {fileID: 1931061987}
-  m_Layer: 9
+  m_Layer: 11
   m_Name: Dunes01 (8)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6759,7 +6567,7 @@ GameObject:
   - component: {fileID: 1940065892}
   - component: {fileID: 1940065894}
   - component: {fileID: 1940065893}
-  m_Layer: 9
+  m_Layer: 11
   m_Name: Dunes02 (2)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6833,7 +6641,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1949080037}
   - component: {fileID: 1949080038}
-  m_Layer: 8
+  m_Layer: 9
   m_Name: Alert
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6910,7 +6718,7 @@ GameObject:
   - component: {fileID: 1968143082}
   - component: {fileID: 1968143084}
   - component: {fileID: 1968143083}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: TankTracksRight
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -6988,7 +6796,7 @@ GameObject:
   - component: {fileID: 1971490937}
   - component: {fileID: 1971490936}
   - component: {fileID: 1971490935}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7116,7 +6924,7 @@ GameObject:
   - component: {fileID: 2045923995}
   - component: {fileID: 2045923994}
   - component: {fileID: 2045923993}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Canvas
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7212,7 +7020,7 @@ GameObject:
   serializedVersion: 6
   m_Component:
   - component: {fileID: 2100669414}
-  m_Layer: 0
+  m_Layer: 9
   m_Name: Fill Area
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7250,7 +7058,7 @@ GameObject:
   - component: {fileID: 2116773245}
   - component: {fileID: 2116773247}
   - component: {fileID: 2116773246}
-  m_Layer: 9
+  m_Layer: 11
   m_Name: Concrete (3)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
@@ -7326,7 +7134,7 @@ GameObject:
   - component: {fileID: 2127792430}
   - component: {fileID: 2127792432}
   - component: {fileID: 2127792431}
-  m_Layer: 9
+  m_Layer: 11
   m_Name: Dunes01 (10)
   m_TagString: Untagged
   m_Icon: {fileID: 0}
